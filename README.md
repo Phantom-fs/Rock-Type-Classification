@@ -4,7 +4,7 @@ This repository contains the implementation of deep learning models for geologic
 
 # Paper
 
-### Advancing geological image segmentation: Deep learning approaches for rock type identification and classification
+### [Advancing geological image segmentation: Deep learning approaches for rock type identification and classification](https://www.sciencedirect.com/science/article/pii/S2590197424000399)
 
 - Published in the Elsevier journal: **Applied Computing and Geosciences**
 
@@ -13,7 +13,6 @@ This repository contains the implementation of deep learning models for geologic
 
 ### Links:
 
-- **[Paper](https://www.sciencedirect.com/science/article/pii/S2590197424000399)**
 - **[DOI](https://doi.org/10.1016/j.acags.2024.100192)**
 - **[Journal Homepage](https://www.sciencedirect.com/journal/applied-computing-and-geosciences)**
 - **[Scopus](https://www.scopus.com/sourceid/21101075727)**
@@ -69,7 +68,7 @@ Preprocessing steps include:
 
 ## Models
 
-The repository contains **[CODE](Code)** for fine-tuning and evaluating several deep learning models using the **PyTorch** framework. The following models are included:
+The repository contains code for fine-tuning and evaluating several deep learning models using the **PyTorch** framework. The following models are included:
 
 - ResNet101, ResNet152
 - Inception V3
@@ -82,8 +81,8 @@ The repository contains **[CODE](Code)** for fine-tuning and evaluating several 
 
 - **Best-performing model**: MobileNet V3 Large
 - **Accuracy**: 99.15% in K-Fold cross-validation
-- **K-Fold Cross-Validation**: All models achieved over 98% accuracy in 5-fold cross-validation.
 - **Comprehensive metrics**: Precision, Sensitivity, Specificity, and F-Score are all above 98% on the preprocessed dataset.
+- **K-Fold Cross-Validation**: All models achieved over 98% accuracy in 5-fold cross-validation.
 
 For detailed model performance and evaluation metrics (precision, sensitivity, specificity, F1-score), refer to the results in the paper.
 
